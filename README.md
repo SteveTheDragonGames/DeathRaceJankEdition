@@ -1,7 +1,3 @@
-Alright — here’s the README with a short **“About This Build”** section that notes the 3-day jam time.
-
----
-
 # DeathRace: Janky Jam Edition 🏎💀
 
 A quick-and-dirty 3-day remake of the infamous 1976 *Death Race* arcade game — built in Unity as part of a personal jam to practice rapid prototyping, arcade AI, and classic 70s game feel.
