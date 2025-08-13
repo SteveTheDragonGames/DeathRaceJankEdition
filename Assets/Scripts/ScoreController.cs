@@ -5,6 +5,7 @@ public class Score : MonoBehaviour
 {
     public int score = 0;
     public Text scoreText;
+    public int GremlinPoints = 1;
 
     void OnEnable()
     {
@@ -18,7 +19,7 @@ public class Score : MonoBehaviour
 
     void AddScore()
     {
-        score += 10;
+        score += GremlinPoints;
         if (scoreText) scoreText.text = score.ToString();
     }
 }

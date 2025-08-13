@@ -7,6 +7,7 @@ public class CarControl : MonoBehaviour
 {
     public float moveSpeed = 5f;
     private float currentSpeed;
+    public float reverseSpeed = 3f;
     public float turnSpeed = 1000f;
     private float nextTurnTime = 0f;
     public float carTurnDelay = 0.2f;
@@ -77,7 +78,7 @@ public class CarControl : MonoBehaviour
         if (Input.GetKey("s") || Input.GetKey(KeyCode.DownArrow))
         {
             isMoving = true;
-            transform.Translate(Vector2.down * currentSpeed * .08f * Time.deltaTime, Space.Self);
+            transform.Translate(Vector2.down * reverseSpeed * .08f * Time.deltaTime, Space.Self);
         }
 
     }

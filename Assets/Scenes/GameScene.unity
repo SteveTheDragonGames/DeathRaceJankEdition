@@ -690,6 +690,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   scoreText: {fileID: 483030668}
+  GremlinPoints: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1992,7 +1993,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameController: {fileID: 32992450}
   timerText: {fileID: 1099529671}
-  maxTime: 5
+  maxTime: 80
   timeRemaining: 80
 --- !u!1 &1117326804
 GameObject:
@@ -5312,6 +5313,14 @@ PrefabInstance:
     - target: {fileID: 615756487788311106, guid: 14f9fa8bf5f61ca49a3b3f0c9cc88c87, type: 3}
       propertyPath: m_Name
       value: Car
+      objectReference: {fileID: 0}
+    - target: {fileID: 4834580633801994775, guid: 14f9fa8bf5f61ca49a3b3f0c9cc88c87, type: 3}
+      propertyPath: turnSpeed
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 4834580633801994775, guid: 14f9fa8bf5f61ca49a3b3f0c9cc88c87, type: 3}
+      propertyPath: reverseSpeed
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7880286351929065325, guid: 14f9fa8bf5f61ca49a3b3f0c9cc88c87, type: 3}
       propertyPath: m_LocalPosition.x
